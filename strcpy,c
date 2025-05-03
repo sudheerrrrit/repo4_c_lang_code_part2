@@ -1,0 +1,16 @@
+#include<stdio.h>
+#include<string.h>
+
+void main()
+{
+    char str1[10] , str2[15];
+    printf("\n enter the string 1 : ");
+    gets(str1);
+
+strcpy(str2,str1);
+     printf(" the requaired string is %s",str2);
+        
+
+
+
+}
